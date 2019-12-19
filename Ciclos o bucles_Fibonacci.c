@@ -2,13 +2,13 @@
 
 int main(){
 	
-	int i, n;
+	int i, num;
 	long x=0,y=1,z=1;
 	
 	printf("Digite la cantidad de elementos de la serie: ");
-	scanf("%i",&n);
+	scanf("%i",&num);
 	
-	for(i=1;i<=n;i++){
+	for(i=1;i<=num;i++){
 		
 		printf("%i, ",z);
 		z= x + y;
